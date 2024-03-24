@@ -1,4 +1,5 @@
-streamlit
 nltk
-re
 sklearn
+streamlit
+streamlit_option_menu
+numpy
