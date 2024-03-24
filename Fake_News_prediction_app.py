@@ -1,8 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="News Prediction", page_icon=":earth_africa:")
 from streamlit_option_menu import option_menu
-import time
-import asyncio
 import About, Home, Contact
 
 
