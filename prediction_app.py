@@ -1,5 +1,5 @@
 import streamlit as st
-import numpy as np
+st.set_page_config(page_title="News Prediction", page_icon=":earth_africa:")
 import re
 import nltk
 from nltk.corpus import stopwords
@@ -32,14 +32,10 @@ def preProcessing(author, title, text):
 # Function to convert text into numerical vector using TF-IDF
 def convertIntoVector(X):
     # Now converting the textual data into numerical vectors using the initialized TF-IDF vectorizer
-    # vectorizer.fit(X) 
     X = vectorizer.transform(X)
-    print(X)
-
     return X
 
 # Create the Streamlit app
-st.set_page_config(page_title="News Prediction", page_icon=":earth_africa:")
 st.header("Fake News Prediction App")
 
 # Create the form
