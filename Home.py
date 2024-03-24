@@ -50,7 +50,6 @@ def main():
         prediction = news_model.predict(numerical_data)
         
         st.subheader(":loudspeaker:Prediction:")
-        st.write(prediction)
         if prediction[0] == 0:
             st.write("This news is predicted to be **real**.:muscle:")
         else:
