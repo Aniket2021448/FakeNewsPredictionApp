@@ -1,6 +1,7 @@
 # Fake News Prediction App
 live demo: https://find-fake-news.streamlit.app/ 
-\nThis web app predicts whether a given news article is real or fake. It utilizes a logistic regression model trained on a dataset containing 20,000 sample news articles. The model achieves an impressive accuracy of 96%. The app employs a TF-IDF vectorizer and preprocessing techniques from the NLTK library, including lowering, regular expressions, splitting, and merging textual data to facilitate the prediction process.
+
+This web app predicts whether a given news article is real or fake. It utilizes a logistic regression model trained on a dataset containing 20,000 sample news articles. The model achieves an impressive accuracy of 96%. The app employs a TF-IDF vectorizer and preprocessing techniques from the NLTK library, including lowering, regular expressions, splitting, and merging textual data to facilitate the prediction process.
 
 **Skills Enhanced:**
   
