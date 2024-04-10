@@ -104,7 +104,7 @@ For any inquiries or feedback, please contact aniketpanchal1257@gmail.com
 
 
     with st.sidebar.form("app_selection_form"):
-        st.write("Select an App:")
+        st.write("Feel free to explore my other apps :eyes:")
         app_links = {
             "Movie-mind": "https://movie-mind.streamlit.app/",
             "Comment-Feel": "https://huggingface.co/spaces/GoodML/Comment-Feel"
