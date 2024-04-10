@@ -16,6 +16,8 @@ def render_contact_page():
     Contact.main()
 
 
+
+
 # TO remove streamlit branding and other running animation
 hide_st_style = """
             <style>
