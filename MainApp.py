@@ -8,20 +8,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pickle
 
 st.set_page_config(page_title="News Prediction", page_icon=":earth_africa:")
-# from streamlit_option_menu import option_menu
-# import About, Home, Contact
-
-
-# def render_About_page():
-#     About.main()
-
-
-# def render_home_page():
-#     Home.main()
-
-
-# def render_contact_page():
-#     Contact.main()
 
 
 
@@ -164,21 +150,5 @@ For any inquiries or feedback, please contact aniketpanchal1257@gmail.com
 
 
 
-# selected = option_menu(
-#     menu_title="",
-#     options=["Home", "About", "Contact"],
-#     icons=['house', 'kanban', 'envelope'],
-#     menu_icon="",
-#     default_index=0,
-#     orientation="horizontal",
-#     styles="height: {300px;}, padding: {0px;}, margin: {0px;}, background-color: {white;}"
-# )
-
-# if selected == "About":
-#     render_About_page()
-# elif selected == "Contact":
-#     render_contact_page()
-# else:
-#     render_home_page()
 if __name__ == "__main__":
     main()
