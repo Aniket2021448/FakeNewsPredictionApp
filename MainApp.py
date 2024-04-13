@@ -143,8 +143,8 @@ For any inquiries or feedback, please contact aniketpanchal1257@gmail.com
         prediction = news_model.predict(numerical_data)
         
         st.subheader(":loudspeaker:Prediction:")
-        print("Prediction: ", prediction)
-        print("Prediction[0]: ", prediction[0])
+        st.write("Prediction: ", prediction)
+        st.write("Prediction[0]: ", prediction[0])
         if prediction[0] == 0:
             st.write("This news is predicted to be **real**.:muscle:")
         else:
