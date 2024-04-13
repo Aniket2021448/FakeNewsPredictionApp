@@ -19,7 +19,7 @@ vectorizer = pickle.load(open("fakeNews_tfidf_vectorizer.pkl", "rb"))
 
 # Function for preprocessing input text
 def preProcessing(author, title, text):
-    input_corpus = title + " " + author + " " + text
+    input_corpus = author +" " + title + " " + text
     input_corpus = re.sub('[^a-zA-Z]', ' ', input_corpus)
     input_corpus = input_corpus.lower()
     input_corpus = input_corpus.split()
@@ -143,6 +143,8 @@ For any inquiries or feedback, please contact aniketpanchal1257@gmail.com
         prediction = news_model.predict(numerical_data)
         
         st.subheader(":loudspeaker:Prediction:")
+        print("Prediction: ", prediction)
+        print("Prediction[0]: ", prediction[0])
         if prediction[0] == 0:
             st.write("This news is predicted to be **real**.:muscle:")
         else:
